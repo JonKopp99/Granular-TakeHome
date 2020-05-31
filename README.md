@@ -3,7 +3,7 @@
 
 ## Requirements⚠️
  1. xCode.
- 2. Swift5.
+ 2. Swift.
  3. iOS 13.0.
  4. Internet.
 ## Screencasts📷

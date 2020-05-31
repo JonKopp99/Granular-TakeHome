@@ -1,0 +1,14 @@
+For this take-home project, you’ll be creating a simple iOS app in Swift that displays a list of numbers and images.
+
+Using this mock endpoint, the app should fetch the data, store it in an on-device database, then display it in a list. For each entry, it should display the image referenced (one for example) on the left-hand side and display the name on the right-hand side, in the order that it is listed in the JSON response.
+
+Optional but not required features:
+
+Display a placeholder image while downloading the image
+Prioritization for downloading images that are currently on-screen
+Cache the images to avoid unnecessary downloads
+Unit tests
+Any other neat ideas you have time for!
+Our goal is to use this project to see your personal coding style, familiarity with design patterns, and your ability to architect simple iOS functionality. We’ll also use it as a conversation starter for future sessions. We want to be respectful of your time, so please limit your work to 3 hours. Please only use a third-party library for your network stack. All other dependencies should be part of the iOS platform.
+
+Please follow standard best practices and record your work using git. Once you’re done with the project we ask that you please create a new private repo, upload it to GitHub and invite user granulartechnical. GitHub now provides unlimited free private repos but if you have any trouble, please let us know.

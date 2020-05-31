@@ -89,7 +89,7 @@ extension UIImageView {
                 activity.stopAnimating()
                 activity.removeFromSuperview()
             } else {
-                // Image has not been download before
+                // Image has not been downloaded before
                 URLSession.shared.dataTask(with: url) { data, response, error in
                     guard
                         let httpURLResponse = response as? HTTPURLResponse, httpURLResponse.statusCode == 200,

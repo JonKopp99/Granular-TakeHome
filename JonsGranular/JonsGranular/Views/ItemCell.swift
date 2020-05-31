@@ -72,9 +72,13 @@ class ItemCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
         let colors = [#colorLiteral(red: 0, green: 0.6745098039, blue: 1, alpha: 1),#colorLiteral(red: 0, green: 0.6498066187, blue: 0.2595749497, alpha: 1),#colorLiteral(red: 1, green: 0.6632423401, blue: 0, alpha: 1),#colorLiteral(red: 1, green: 0.2980392157, blue: 0, alpha: 1),#colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1),#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)]
         if selected {
-            self.backgroundColor = colors.randomElement() ?? .white
+            UIView.animate(withDuration: 0.3, animations: {
+                self.backgroundColor = colors.randomElement() ?? .white
+            })
         } else {
-            self.backgroundColor = .white
+            UIView.animate(withDuration: 0.3, animations: {
+                self.backgroundColor = .white
+            })
         }
     }
 

@@ -18,7 +18,7 @@
 		AB40B2152482E2260010DD84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40B2142482E2260010DD84 /* SceneDelegate.swift */; };
 		AB40B21C2482EBA30010DD84 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40B21B2482EBA30010DD84 /* ItemCell.swift */; };
 		AB40B21E2482FD780010DD84 /* CDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB40B21D2482FD780010DD84 /* CDManager.swift */; };
-		AB40B2212482FE760010DD84 /* ItemCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB40B21F2482FE760010DD84 /* ItemCD.xcdatamodeld */; };
+		AB40B2212482FE760010DD84 /* CoreDataModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB40B21F2482FE760010DD84 /* CoreDataModels.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,7 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				AB40B2122482E11F0010DD84 /* ListModel.swift */,
-				AB40B21F2482FE760010DD84 /* ItemCD.xcdatamodeld */,
+				AB40B21F2482FE760010DD84 /* CoreDataModels.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 				AB40B2152482E2260010DD84 /* SceneDelegate.swift in Sources */,
 				AB40B1FD2482DD790010DD84 /* GranularVC.swift in Sources */,
 				AB40B21C2482EBA30010DD84 /* ItemCell.swift in Sources */,
-				AB40B2212482FE760010DD84 /* ItemCD.xcdatamodeld in Sources */,
+				AB40B2212482FE760010DD84 /* CoreDataModels.xcdatamodeld in Sources */,
 				AB40B21E2482FD780010DD84 /* CDManager.swift in Sources */,
 				AB40B1F92482DD790010DD84 /* AppDelegate.swift in Sources */,
 				AB40B2102482DEF60010DD84 /* GranularNetwork.swift in Sources */,
@@ -406,13 +406,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		AB40B21F2482FE760010DD84 /* ItemCD.xcdatamodeld */ = {
+		AB40B21F2482FE760010DD84 /* CoreDataModels.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				AB40B2202482FE760010DD84 /* Model.xcdatamodel */,
 			);
 			currentVersion = AB40B2202482FE760010DD84 /* Model.xcdatamodel */;
-			path = ItemCD.xcdatamodeld;
+			path = CoreDataModels.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

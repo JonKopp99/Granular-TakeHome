@@ -2,7 +2,7 @@
 **Fetches items from a JSON list and saves them to Core Data.**
 
 ## Screencasts📷
-![](https://drive.google.com/file/d/1ye3pmCxP_GGijVFDikXT6EJTOXSrfiVX/view?usp=sharing)
+![Demo](GranularGif.gif)
 ## Requirements⚠️
  1. xCode.
  2. Swift5.
